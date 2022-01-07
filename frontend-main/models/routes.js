@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 mongoose.connect('mongodb://localhost:27017/router_db', {
-    useNewUrlParser: true,
+    mongodb+srv://eeestupi:Chelita1744@cluster0.0.mongodb.net/router_db?retryWrites=true&w=majority: true,    
+//useNewUrlParser: true,
 },
 (err) => {
     if (!err) {
