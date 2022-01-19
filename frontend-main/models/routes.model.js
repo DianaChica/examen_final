@@ -40,4 +40,4 @@ var routerSchema = new mongoose.Schema({
     Country:{ type: String, required: ' This field is required', },
 });
 
-mongoose.model("Routes", routerSchema);
+mongoose.model("Routes2", routerSchema);
