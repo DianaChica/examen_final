@@ -2,13 +2,32 @@
 <table>
     <thead>
         <tr>
-            <th>ip</th>
+            <th>StationName</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each list}}
+        <tr>
+            <td>{{this.StationName}}</td>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+
+{{!-- <table>
+    <thead>
+        <tr> --}}
+
+            
+            {{!-- <th>ip</th>
             <th>origin</th>
             <th>metric</th>
             <th>localpref</th>
             <th>valid</th>
-            <th>internal</th>
-            <th>date</th>
+            <th>internal</th> --}}
+            {{!-- <th>date</th>
         </tr>
     </thead>
     <tbody>
@@ -29,4 +48,4 @@
         </tr>
         {{/each}}
     </tbody>
-</table>
+</table> --}}
